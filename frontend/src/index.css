@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Ресетирање на основните стилови за да дозволиме Full Width */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  /* Ги тргаме flex и place-items: center */
+  display: block;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ова ќе ги поправи белите букви во инпутите ако си во Dark Mode */
+input {
+  color: #1a1a1a !important;
+}

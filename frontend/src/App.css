@@ -1,0 +1,22 @@
+/* App.css */
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Ако сакаш содржината во Success и Checkout да биде центрирана 
+   но да ја зазема целата ширина на заднината: */
+.full-width-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ова ќе ги пребрише сите чудни маргини што ги додава прелистувачот */
+* {
+  box-sizing: border-box;
+}
